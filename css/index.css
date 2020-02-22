@@ -335,3 +335,45 @@ footer nav a {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 500px;
+    margin: auto;
+  }
+  nav {
+    justify-content: space-between;
+  }
+  .logo {
+    display: none;
+  }
+  .img-container {
+    width: 500px;
+  }
+
+  .img-container img {
+    width: 100%;
+  }
+  .top-content,
+  .bottom-content {
+    flex-direction: column;
+  }
+
+  .top-content .text-container {
+    width: 100%;
+  }
+
+  .boxes {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .bottom-content .text-container p {
+    width: 100%;
+    margin: 3% 0;
+  }
+
+  .middle-content .boxes .box {
+    width: 25%;
+  }
+}
