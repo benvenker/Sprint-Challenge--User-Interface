@@ -1,0 +1,45 @@
+img.products-hero {
+  width: 100%;
+  height: auto;
+}
+
+img.product-img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  margin: 5% 0;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 9%;
+  width: 33%;
+  font-size: 0.9em;
+}
+
+@media (max-width: 500px) {
+  body {
+    font-size: 1.4em;
+  }
+
+  h5 {
+    font-size: 1.4em;
+  }
+  .logo {
+    display: none;
+  }
+  .panels {
+    flex-direction: column;
+    align-items: center;
+  }
+  .panel {
+    width: 90%;
+    margin: 3%;
+  }
+
+  .panel button {
+    background-color: white;
+    height: 50px;
+    font-size: 1em;
+  }
+}

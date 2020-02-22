@@ -1,0 +1,27 @@
+.panels {
+  border-top: 1px dotted black;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.panel {
+  padding: 2% 0;
+  width: 45%;
+  margin: 2%;
+  border-bottom: 2px dotted gray;
+}
+
+.panel button {
+  margin: 5% 0;
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 9%;
+  width: 33%;
+  font-size: 0.9em;
+}
+
+.about-bottom-content,
+.about-description-container {
+  padding: 3%;
+}
