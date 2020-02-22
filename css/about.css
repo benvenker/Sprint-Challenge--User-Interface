@@ -20,3 +20,8 @@
   width: 33%;
   font-size: 0.9em;
 }
+
+.about-bottom-content,
+.about-description-container {
+  padding: 3%;
+}
