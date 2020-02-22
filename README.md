@@ -37,7 +37,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
        1. Display block means the element takes up the full width of the page / its container.
-       2. 
+       2. Display inline only takes up the space of the content by default.
 
 3. What are the 4 areas of the box model?
    1. Margin
